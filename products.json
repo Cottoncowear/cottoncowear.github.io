@@ -40,7 +40,8 @@
         "M",
         "L"
       ],
-      "image": "zz-test-kurti-1794452018195.jpg"
+      "image": "zz-test-kurti-1794452018195.jpg",
+      "soldOut": true
     },
     {
       "id": "sample-1",
