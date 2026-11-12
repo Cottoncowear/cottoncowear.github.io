@@ -4,7 +4,7 @@
     "tagline": "Everyday elegance, effortlessly.",
     "subline": "Comfort | Style | Simplicity ✨",
     "whatsapp": "",
-    "instagram": "",
+    "instagram": "cottonco.wear",
     "currency": "₹"
   },
   "categories": [
@@ -64,88 +64,6 @@
         "M"
       ],
       "image": "cotton-top-1794453415428.jpg"
-    },
-    {
-      "id": "sample-1",
-      "sample": true,
-      "category": "kurtis",
-      "name": "Sample Cotton Kurti",
-      "description": "Soft everyday cotton kurti. Real product coming soon.",
-      "price": 599,
-      "sizes": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "image": "sample-cotton-kurti-1794453529801.jpg"
-    },
-    {
-      "id": "sample-2",
-      "sample": true,
-      "category": "kurtis",
-      "name": "Sample Printed Kurti",
-      "description": "Light printed kurti for daily wear. Real product coming soon.",
-      "price": null,
-      "sizes": [
-        "M",
-        "L",
-        "XL"
-      ],
-      "image": ""
-    },
-    {
-      "id": "sample-3",
-      "sample": true,
-      "category": "cotton-tops",
-      "name": "Sample Cotton Top",
-      "description": "Breathable cotton top, easy to style. Real product coming soon.",
-      "price": null,
-      "sizes": [
-        "S",
-        "M",
-        "L"
-      ],
-      "image": ""
-    },
-    {
-      "id": "sample-4",
-      "sample": true,
-      "category": "co-ord-sets",
-      "name": "Sample Co-ord Set",
-      "description": "Matching top and bottom set. Real product coming soon.",
-      "price": null,
-      "sizes": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "image": ""
-    },
-    {
-      "id": "sample-5",
-      "sample": true,
-      "category": "loungewear",
-      "name": "Sample Night Suit",
-      "description": "Comfortable loungewear for home. Real product coming soon.",
-      "price": null,
-      "sizes": [
-        "M",
-        "L",
-        "XL"
-      ],
-      "image": ""
-    },
-    {
-      "id": "sample-6",
-      "sample": true,
-      "category": "dupattas",
-      "name": "Sample Cotton Dupatta",
-      "description": "Lightweight dupatta to finish the look. Real product coming soon.",
-      "price": null,
-      "sizes": [],
-      "image": ""
     }
   ]
 }
