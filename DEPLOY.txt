@@ -1,0 +1,12 @@
+Cottonco.wear deploy notes
+The site is plain static files: upload the whole folder (index.html at the root).
+Do NOT upload this DEPLOY.txt/README.md if you prefer; they are harmless.
+
+Permanent free options (each needs the owner's/bot's account login once):
+1. GitHub Pages: create repo (e.g. cottonco-wear), push this folder to main, Settings > Pages > Deploy from branch main /(root).
+   URL: https://<account>.github.io/cottonco-wear/   (paths are relative, so a sub-path works)
+   Update: edit products.json / add images in the repo, commit; the site updates in about a minute.
+2. Cloudflare Pages: `npx wrangler pages deploy . --project-name cottonco-wear`  -> https://cottonco-wear.pages.dev
+3. Surge: `npx surge . cottonco-wear.surge.sh`
+4. Netlify: `npx netlify deploy --prod --dir .`
+ship.place anonymous drops expire after 7 days (30 with a free account); permanent only on paid Pro.
