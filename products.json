@@ -32,17 +32,6 @@
   ],
   "products": [
     {
-      "id": "p-1794452018195",
-      "category": "cotton-tops",
-      "name": "ZZ Test 2",
-      "description": "x",
-      "price": 599,
-      "sizes": [
-        "S"
-      ],
-      "image": "zz-test-2-1794452024177.jpg"
-    },
-    {
       "id": "sample-1",
       "sample": true,
       "category": "kurtis",
