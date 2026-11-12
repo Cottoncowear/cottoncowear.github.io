@@ -31,6 +31,18 @@
   ],
   "products": [
     {
+      "id": "p-1794453492106",
+      "category": "kurtis",
+      "name": "Printed top",
+      "description": "",
+      "price": 399,
+      "sizes": [
+        "M",
+        "L"
+      ],
+      "image": "printed-top-1794453492108.jpg"
+    },
+    {
       "id": "p-1794453415427",
       "category": "cotton-tops",
       "name": "Cotton top",
