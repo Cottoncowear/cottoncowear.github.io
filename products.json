@@ -32,15 +32,14 @@
   "products": [
     {
       "id": "p-1794452018195",
-      "category": "kurtis",
-      "name": "ZZ Test Kurti ₹",
-      "description": "test é",
-      "price": 499,
+      "category": "cotton-tops",
+      "name": "ZZ Test 2",
+      "description": "x",
+      "price": 599,
       "sizes": [
-        "M",
-        "L"
+        "S"
       ],
-      "image": "zz-test-kurti-1794452018195.jpg",
+      "image": "zz-test-2-1794452024177.jpg",
       "soldOut": true
     },
     {
