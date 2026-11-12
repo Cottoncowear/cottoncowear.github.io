@@ -60,14 +60,14 @@
       "category": "kurtis",
       "name": "Sample Cotton Kurti",
       "description": "Soft everyday cotton kurti. Real product coming soon.",
-      "price": null,
+      "price": 599,
       "sizes": [
         "S",
         "M",
         "L",
         "XL"
       ],
-      "image": ""
+      "image": "sample-cotton-kurti-1794453529801.jpg"
     },
     {
       "id": "sample-2",
