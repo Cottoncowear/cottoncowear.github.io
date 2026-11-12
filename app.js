@@ -39,7 +39,8 @@
     } else {
       var ph = el("div", "ph", "C&C"); ph.appendChild(el("small", null, "Photo coming soon")); pic.appendChild(ph);
     }
-    if (p.sample) pic.appendChild(el("span", "badge", "Sample"));
+    if (p.soldOut) { pic.classList.add("soldout"); pic.appendChild(el("span", "badge sold", "Sold out")); }
+    else if (p.sample) pic.appendChild(el("span", "badge", "Sample"));
     c.appendChild(pic);
     var info = el("div", "info");
     info.appendChild(el("div", "cat", catName(p.category)));
@@ -47,6 +48,7 @@
     if (p.description) info.appendChild(el("p", "desc", p.description));
     info.appendChild(el("div", "price", price(p)));
     if (p.sizes && p.sizes.length) info.appendChild(el("div", "sizes", "Sizes: " + p.sizes.join(", ")));
+    if (p.soldOut) { var so = el("span", "btn sold-btn", "Sold out"); so.setAttribute("aria-disabled", "true"); info.appendChild(so); c.appendChild(info); return c; }
     var a = el("a", "btn wa", "Enquire on WhatsApp");
     a.href = "#contact"; a.setAttribute("data-wa", ""); a.setAttribute("data-msg", "Hi Cottonco.wear, I'm interested in: " + p.name + (p.sample ? " (sample design)" : ""));
     info.appendChild(a);
@@ -80,7 +82,10 @@
   });
   document.getElementById("yr").textContent = new Date().getFullYear();
   fetch("products.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (d) {
-    state.data = d; chips(); render();
+    state.data = d; d.products = d.products || [];
+    var hasSample = d.products.some(function (p) { return p.sample; });
+    var note = $("#shop-note"); if (note) note.hidden = !hasSample;
+    chips(); render();
   }).catch(function () {
     $("#grid").appendChild(el("p", "empty", "The collection could not load. Please refresh, or message us."));
   });
