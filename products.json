@@ -31,6 +31,17 @@
   ],
   "products": [
     {
+      "id": "p-1795687490304",
+      "category": "kurtis",
+      "name": "Blue & Maroon Printed Pakistani 3-Piece Suit",
+      "description": "Beautiful printed 3-piece suit featuring a stylish kurti, matching pants, and an elegant dupatta. A lovely choice for casual outings and everyday wear.",
+      "price": 999,
+      "sizes": [
+        "Free size"
+      ],
+      "image": "blue-maroon-printed-pakistani-1795687490304.jpg"
+    },
+    {
       "id": "p-1794455207090",
       "category": "kurtis",
       "name": "Black Floral Printed Kurti",
