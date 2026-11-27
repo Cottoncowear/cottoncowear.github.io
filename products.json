@@ -31,6 +31,17 @@
   ],
   "products": [
     {
+      "id": "p-1795785543086",
+      "category": "kurtis",
+      "name": "Pink Floral Printed Pakistani Suit Set",
+      "description": "Elegant pink Pakistani suit set featuring beautiful floral prints with a matching dupatta. Perfect for casual outings, daily wear, and special occasions.",
+      "price": 1499,
+      "sizes": [
+        "Free size"
+      ],
+      "image": "pink-floral-printed-pakistani-1795785543086.jpg"
+    },
+    {
       "id": "p-1795762495538",
       "category": "kurtis",
       "name": "Blue floral printed 3- piece kurti set",
