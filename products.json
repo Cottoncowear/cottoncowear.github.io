@@ -31,6 +31,17 @@
   ],
   "products": [
     {
+      "id": "p-1795785662852",
+      "category": "kurtis",
+      "name": "Black Floral 3-Piece Suit Set",
+      "description": "Elegant black floral printed suit featuring a beautiful detailed neckline, matching dupatta, and striped bottom. A stylish and comfortable choice for everyday wear and casual outings.",
+      "price": 1499,
+      "sizes": [
+        "Free size"
+      ],
+      "image": "black-floral-3-piece-suit-set-1795785662852.jpg"
+    },
+    {
       "id": "p-1795785543086",
       "category": "kurtis",
       "name": "Pink Floral Printed Pakistani Suit Set",
