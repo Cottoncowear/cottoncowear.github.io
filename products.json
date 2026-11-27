@@ -31,6 +31,17 @@
   ],
   "products": [
     {
+      "id": "p-1795762495538",
+      "category": "kurtis",
+      "name": "Blue floral printed 3- piece kurti set",
+      "description": "Beautiful Blue Floral Printed Kurti Set with Matching Pant & Dupatta.",
+      "price": 849,
+      "sizes": [
+        "Free size"
+      ],
+      "image": "blue-floral-printed-3-piece-ku-1795762495538.jpg"
+    },
+    {
       "id": "p-1795687490304",
       "category": "kurtis",
       "name": "Blue & Maroon Printed Pakistani 3-Piece Suit",
